@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+
+    .navbar-nav {
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .navbar-toggler:focus { 
+        box-shadow: none;
+    }
+
+    .price-area {
+        padding: 0;
+    }
+}

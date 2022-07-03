@@ -1,0 +1,195 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600 ;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+/* header area css*/
+ 
+.nav {
+    padding: 20px 0;
+    background-color:#fff;
+    transition: all 0.4s ease-in-out;
+}
+
+ 
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    border-top: 0;
+    background-color: #fff !important;
+    padding: 10px 0px;
+    border-bottom: none;
+    box-shadow: 0 10px 30px -10px rgb(0 64 128 / 20%);
+} 
+  
+.navbar img.logo-white {
+    width: 150px;
+}
+
+.navbar li.nav-item {
+    padding: 0 12px;
+}
+
+.navbar a.nav-link {
+    color: #212121;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.navbar a.nav-link:hover {
+    color: #00AF80;
+    transition: all 0.2s;
+}
+ 
+
+.navbar-nav {
+    align-items: center;
+}
+
+a {
+    color: #00AF80;
+}
+ 
+.btn-one {
+    background-color: #00AF80;
+    border-radius: 10px;
+    padding: 15px 40px !important;
+    color: #fff !important;
+    font-size: 18px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.btn-one:hover  {
+    background-color: #292140;
+    transition: all 0.3s;
+}
+
+
+.btn-two {
+    background-color: #292140;
+    border-radius: 10px;
+    padding: 15px 40px !important;
+    color: #fff !important;
+    font-size: 18px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.btn-two:hover { 
+    background-color: #00AF80;
+    transition: all 0.3s;
+}
+
+.s-color {
+    color: #00AF80;
+}
+
+.s-card {
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 175, 128, 0.2);
+    padding: 20px;
+    color: #00AF80;
+    text-align: center;
+    border-radius: 10px;
+    height: 100%;
+    margin: 0 20px;
+    min-height: 175px;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.s-card.main {
+    background-color: #292140;
+    color: #fff;
+}
+
+.s-card:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 175, 128, 0.2);
+    transition: all 0.3s;
+}
+
+.s-card img {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.bg-grey {
+    background-color: #f4f4f4;
+}
+
+.table>:not(:first-child) {
+    border-top: 1px solid currentColor;
+}
+
+.features-area {
+    background-image: url(../images/shape.svg);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+
+.pricing-card {
+    padding: 30px 35px 40px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 10px;
+}
+
+.pricing-card.main {
+    background-color: #00AF80;
+    color: #fff;
+}
+
+.pricing-card a {
+    font-size: 20px;
+    color: #00AF80;
+    transition: all 0.2s;
+}
+
+.pricing-card a:hover {
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+.pricing-card img {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+
+.hr-one {
+    border: 0;
+    border-bottom: solid 2px #00AF80;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
